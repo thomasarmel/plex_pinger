@@ -127,6 +127,11 @@ Create the **config.json** file:
 }
 ```
 
+As there are secrets in the configuration file, **Don't forget to set the correct permissions**:
+```bash
+chmod 400 config.json
+```
+
 And finally run the program:
 
 ```bash
